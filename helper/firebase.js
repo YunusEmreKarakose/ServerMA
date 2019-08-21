@@ -7,7 +7,7 @@ var serviceAccount = require("./service_account.json");
 // Initialize the app with a service account, granting admin privileges
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://deneme-55695.firebaseio.com"
+  databaseURL: "databaseURL"
 });
 
 module.exports = {
